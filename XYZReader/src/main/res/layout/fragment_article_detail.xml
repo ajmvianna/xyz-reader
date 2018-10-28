@@ -22,12 +22,13 @@
                 <!--suppress AndroidLintContentDescription -->
                 <ImageView
                     android:id="@+id/photo"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
                     android:layout_height="100dp"
-                    android:layout_gravity="center_horizontal"
                     android:layout_margin="4dp"
                     android:elevation="4dp"
-                    android:padding="4dp" />
+                    android:padding="4dp"
+                    />
 
                 <View
                     android:layout_width="match_parent"
